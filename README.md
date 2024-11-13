@@ -2,9 +2,9 @@
 
 Lemesle Stéphanie^1^, Bernard Ismaël^2^, Herbomez Anaïs^1^, Normand Julien^1*^
 
-^1^ Laboratory Environnement Ressources de Normandie, IFREMER, Department Océanographie et Dynamique des Ecosystèmes, COAST research unit, FR
+$^1$ Laboratory Environnement Ressources de Normandie, IFREMER, Department Océanographie et Dynamique des Ecosystèmes, COAST research unit, FR
 
-^2^ Eurêka Mer, FR
+$^2$ Eurêka Mer, FR
 
 ^*^Correspondence:
 Corresponding Author: julien.normand@ifremer.fr
