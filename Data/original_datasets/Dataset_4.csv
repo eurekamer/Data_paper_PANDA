@@ -1,0 +1,631 @@
+Annee naissain;Secteur;Site;Visite;Dates;Nb de mortes;nb de vivantes
+2004;Chausey;Roquette;To;27/09/2004;0;200
+2004;Chausey;Huguenans;To;27/09/2004;0;200
+2004;Cote ouest;Bricqueville;To;27/09/2004;0;200
+2004;Cote ouest;Hauteville;To;27/09/2004;0;200
+2004;Cote ouest;Agon;To;27/09/2004;0;200
+2004;Cote ouest;Pirou nord;To;27/09/2004;0;200
+2004;Cote est;Utah;To;27/09/2004;0;200
+2004;Chausey;Roquette;V1;13/12/2004;1;199
+2004;Chausey;Huguenans;V1;13/12/2004;3;197
+2004;Cote ouest;Bricqueville;V1;13/12/2004;0;200
+2004;Cote ouest;Hauteville;V1;13/12/2004;10;190
+2004;Cote ouest;Agon;V1;15/12/2004;3;197
+2004;Cote ouest;Pirou nord;V1;14/12/2004;0;200
+2004;Cote est;Utah;V1;10/12/2004;3;197
+2004;Chausey;Roquette;V2;09/02/2005;100;100
+2004;Chausey;Huguenans;V2;09/02/2005;5;195
+2004;Cote ouest;Bricqueville;V2;09/03/2005;0;200
+2004;Cote ouest;Hauteville;V2;09/03/2005;16;184
+2004;Cote ouest;Agon;V2;11/03/2005;6;194
+2004;Cote ouest;Pirou nord;V2;10/03/2005;5;195
+2004;Cote est;Utah;V2;09/03/2005;3;197
+2004;Chausey;Roquette;V3;22/06/2005;113;87
+2004;Chausey;Huguenans;V3;22/06/2005;28;172
+2004;Cote ouest;Bricqueville;V3;23/06/2005;26;174
+2004;Cote ouest;Hauteville;V3;23/06/2005;56;144
+2004;Cote ouest;Agon;V3;24/06/2005;35;165
+2004;Cote ouest;Pirou nord;V3;24/06/2005;50;150
+2004;Cote est;Utah;V3;23/06/2005;28;172
+2004;Chausey;Roquette;REF;19/09/2005;35;165
+2004;Chausey;Huguenans;REF;19/09/2005;40;160
+2004;Cote ouest;Bricqueville;REF;20/09/2005;40;160
+2004;Cote ouest;Hauteville;REF;20/09/2005;68;132
+2004;Cote ouest;Agon;REF;19/09/2005;41;159
+2004;Cote ouest;Pirou nord;REF;20/09/2005;56;144
+2004;Cote est;Utah;REF;16/09/2005;101;99
+2005;Chausey;Roquette;To;04/10/2005;0;200
+2005;Chausey;Huguenans;To;04/10/2005;0;200
+2005;Cote ouest;Bricqueville;To;04/10/2005;0;200
+2005;Cote ouest;Hauteville;To;04/10/2005;0;200
+2005;Cote ouest;Agon;To;04/10/2005;0;200
+2005;Cote ouest;Pirou nord;To;04/10/2005;0;200
+2005;Cote est;Utah;To;04/10/2005;0;200
+2005;Chausey;Roquette;V1;15/12/2005;1;199
+2005;Chausey;Huguenans;V1;15/12/2005;3;197
+2005;Cote ouest;Bricqueville;V1;01/12/2005;1;199
+2005;Cote ouest;Hauteville;V1;01/12/2005;1;199
+2005;Cote ouest;Agon;V1;15/12/2005;0;200
+2005;Cote ouest;Pirou nord;V1;01/12/2005;0;200
+2005;Cote est;Utah;V1;01/12/2005;1;199
+2005;Chausey;Roquette;V2;27/02/2006;11;189
+2005;Chausey;Huguenans;V2;27/02/2006;8;192
+2005;Cote ouest;Bricqueville;V2;28/02/2006;5;195
+2005;Cote ouest;Hauteville;V2;28/02/2006;13;187
+2005;Cote ouest;Agon;V2;27/02/2006;6;194
+2005;Cote ouest;Pirou nord;V2;28/02/2006;10;190
+2005;Cote est;Utah;V2;01/03/2006;8;192
+2005;Chausey;Roquette;V3;12/06/2006;8;192
+2005;Chausey;Huguenans;V3;12/06/2006;8;192
+2005;Cote ouest;Bricqueville;V3;14/06/2006;15;185
+2005;Cote ouest;Hauteville;V3;14/06/2006;26;174
+2005;Cote ouest;Agon;V3;12/06/2006;11;189
+2005;Cote ouest;Pirou nord;V3;12/06/2006;3;197
+2005;Cote est;Utah;V3;13/06/2006;1;199
+2005;Chausey;Roquette;REF;11/09/2006;20;180
+2005;Chausey;Huguenans;REF;11/09/2006;28;172
+2005;Cote ouest;Bricqueville;REF;08/09/2006;20;180
+2005;Cote ouest;Hauteville;REF;08/09/2006;26;174
+2005;Cote ouest;Agon;REF;08/09/2006;41;159
+2005;Cote ouest;Pirou nord;REF;08/09/2006;13;187
+2005;Cote est;Utah;REF;08/09/2006;6;194
+2006;Chausey;Roquette;To;08/09/2006;0;200
+2006;Chausey;Huguenans;To;08/09/2006;0;200
+2006;Cote ouest;Bricqueville;To;08/09/2006;0;200
+2006;Cote ouest;Hauteville;To;08/09/2006;0;200
+2006;Cote ouest;Agon;To;08/09/2006;0;200
+2006;Cote ouest;Pirou nord;To;08/09/2006;0;200
+2006;Cote est;Utah;To;08/09/2006;0;200
+2006;Chausey;Roquette;V1;21/12/2006;11;189
+2006;Chausey;Huguenans;V1;21/12/2006;11;189
+2006;Cote ouest;Bricqueville;V1;20/12/2006;6;194
+2006;Cote ouest;Hauteville;V1;20/12/2006;5;195
+2006;Cote ouest;Agon;V1;21/12/2006;1;199
+2006;Cote ouest;Pirou nord;V1;22/12/2006;0;200
+2006;Cote est;Utah;V1;21/12/2006;0;200
+2006;Chausey;Roquette;V2;16/02/2007;8;192
+2006;Chausey;Huguenans;V2;16/02/2007;21;179
+2006;Cote ouest;Bricqueville;V2;16/02/2007;0;200
+2006;Cote ouest;Hauteville;V2;16/02/2007;10;190
+2006;Cote ouest;Agon;V2;16/02/2007;13;187
+2006;Cote ouest;Pirou nord;V2;19/02/2007;51;149
+2006;Cote est;Utah;V2;19/02/2007;nd;nd
+2006;Chausey;Roquette;V3;13/06/2007;81;119
+2006;Chausey;Huguenans;V3;13/06/2007;31;169
+2006;Cote ouest;Bricqueville;V3;14/06/2007;36;164
+2006;Cote ouest;Hauteville;V3;14/06/2007;43;157
+2006;Cote ouest;Agon;V3;13/06/2007;91;109
+2006;Cote ouest;Pirou nord;V3;13/06/2007;11;189
+2006;Cote est;Utah;V3;13/06/2007;nd;nd
+2006;Chausey;Roquette;REF;10/09/2007;48;152
+2006;Chausey;Huguenans;REF;10/09/2007;53;147
+2006;Cote ouest;Bricqueville;REF;10/09/2007;nd;nd
+2006;Cote ouest;Hauteville;REF;10/09/2007;63;137
+2006;Cote ouest;Agon;REF;10/09/2007;90;110
+2006;Cote ouest;Pirou nord;REF;10/09/2007;nd;nd
+2006;Cote est;Utah;REF;10/09/2007;nd;nd
+2007;Chausey;Roquette;To;12/09/2007;0;200
+2007;Chausey;Huguenans;To;12/09/2007;0;200
+2007;Cote ouest;Bricqueville;To;12/09/2007;0;200
+2007;Cote ouest;Hauteville;To;12/09/2007;0;200
+2007;Cote ouest;Agon;To;12/09/2007;0;200
+2007;Cote ouest;Pirou nord;To;12/09/2007;0;200
+2007;Cote est;Utah;To;12/09/2007;0;200
+2007;Chausey;Roquette;V1;22/11/2007;3;197
+2007;Chausey;Huguenans;V1;22/11/2007;10;190
+2007;Cote ouest;Bricqueville;V1;22/11/2007;5;195
+2007;Cote ouest;Hauteville;V1;22/11/2007;15;185
+2007;Cote ouest;Agon;V1;22/11/2007;0;200
+2007;Cote ouest;Pirou nord;V1;26/11/2007;3;197
+2007;Cote est;Utah;V1;22/11/2007;6;194
+2007;Chausey;Roquette;V2;07/03/2008;11;189
+2007;Chausey;Huguenans;V2;07/03/2008;10;190
+2007;Cote ouest;Bricqueville;V2;07/03/2008;10;190
+2007;Cote ouest;Hauteville;V2;07/03/2008;1;199
+2007;Cote ouest;Agon;V2;07/03/2008;23;177
+2007;Cote ouest;Pirou nord;V2;07/03/2008;5;195
+2007;Cote est;Utah;V2;07/03/2008;10;190
+2007;Chausey;Roquette;V3;02/06/2008;18;182
+2007;Chausey;Huguenans;V3;02/06/2008;18;182
+2007;Cote ouest;Bricqueville;V3;02/06/2008;11;189
+2007;Cote ouest;Hauteville;V3;02/06/2008;23;177
+2007;Cote ouest;Agon;V3;02/06/2008;nd;nd
+2007;Cote ouest;Pirou nord;V3;03/06/2008;31;169
+2007;Cote est;Utah;V3;04/06/2008;13;187
+2007;Chausey;Roquette;REF;29/08/2008;18;182
+2007;Chausey;Huguenans;REF;29/08/2008;15;185
+2007;Cote ouest;Bricqueville;REF;29/08/2008;21;179
+2007;Cote ouest;Hauteville;REF;29/08/2008;8;192
+2007;Cote ouest;Agon;REF;30/08/2008;nd;nd
+2007;Cote ouest;Pirou nord;REF;02/09/2008;26;174
+2007;Cote est;Utah;REF;01/09/2008;18;182
+2008;Chausey;Roquette;To;18/09/2008;0;200
+2008;Chausey;Huguenans;To;18/09/2008;0;200
+2008;Cote ouest;Bricqueville;To;18/09/2008;0;200
+2008;Cote ouest;Hauteville;To;18/09/2008;0;200
+2008;Cote ouest;Agon;To;18/09/2008;0;200
+2008;Cote ouest;Pirou nord;To;18/09/2008;0;200
+2008;Cote est;Utah;To;18/09/2008;0;200
+2008;Chausey;Roquette;V1;15/12/2008;11;189
+2008;Chausey;Huguenans;V1;15/12/2008;6;194
+2008;Cote ouest;Bricqueville;V1;12/12/2008;nd;nd
+2008;Cote ouest;Hauteville;V1;12/12/2008;120;80
+2008;Cote ouest;Agon;V1;12/12/2008;40;160
+2008;Cote ouest;Pirou nord;V1;12/12/2008;70;130
+2008;Cote est;Utah;V1;12/12/2008;70;130
+2008;Chausey;Roquette;V2;15/02/2008;nd;nd
+2008;Chausey;Huguenans;V2;15/02/2008;nd;nd
+2008;Cote ouest;Bricqueville;V2;15/02/2008;nd;nd
+2008;Cote ouest;Hauteville;V2;15/02/2008;nd;nd
+2008;Cote ouest;Agon;V2;15/02/2008;nd;nd
+2008;Cote ouest;Pirou nord;V2;15/02/2008;nd;nd
+2008;Cote est;Utah;V2;15/02/2008;nd;nd
+2008;Chausey;Roquette;V3;22/06/2009;25;175
+2008;Chausey;Huguenans;V3;22/06/2009;25;175
+2008;Cote ouest;Bricqueville;V3;23/06/2009;nd;nd
+2008;Cote ouest;Hauteville;V3;23/06/2009;128;72
+2008;Cote ouest;Agon;V3;24/06/2009;76;124
+2008;Cote ouest;Pirou nord;V3;25/06/2009;106;94
+2008;Cote est;Utah;V3;23/06/2009;85;115
+2008;Chausey;Roquette;REF;08/09/2009;50;150
+2008;Chausey;Huguenans;REF;08/09/2009;50;150
+2008;Cote ouest;Bricqueville;REF;08/09/2009;nd;nd
+2008;Cote ouest;Hauteville;REF;07/09/2009;102;98
+2008;Cote ouest;Agon;REF;07/09/2009;107;93
+2008;Cote ouest;Pirou nord;REF;07/09/2009;nd;nd
+2008;Cote est;Utah;REF;07/09/2009;nd;nd
+2009;Chausey;Roquette;To;15/09/2009;0;200
+2009;Chausey;Huguenans;To;15/09/2009;0;200
+2009;Cote ouest;Bricqueville;To;15/09/2009;0;200
+2009;Cote ouest;Hauteville;To;15/09/2009;0;200
+2009;Cote ouest;Agon;To;15/09/2009;0;200
+2009;Cote ouest;Pirou nord;To;15/09/2009;0;200
+2009;Cote est;Utah;To;15/09/2009;0;200
+2009;Chausey;Roquette;V1;02/12/2009;11;189
+2009;Chausey;Huguenans;V1;02/12/2009;0;200
+2009;Cote ouest;Bricqueville;V1;02/12/2009;5;195
+2009;Cote ouest;Hauteville;V1;02/12/2009;3;197
+2009;Cote ouest;Agon;V1;03/12/2009;1;199
+2009;Cote ouest;Pirou nord;V1;02/12/2009;6;194
+2009;Cote est;Utah;V1;02/12/2009;0;200
+2009;Chausey;Roquette;V2;15/03/2010;3;197
+2009;Chausey;Huguenans;V2;15/03/2010;1;199
+2009;Cote ouest;Bricqueville;V2;15/03/2010;nd;nd
+2009;Cote ouest;Hauteville;V2;15/03/2010;nd;nd
+2009;Cote ouest;Agon;V2;15/03/2010;1;199
+2009;Cote ouest;Pirou nord;V2;15/03/2010;nd;nd
+2009;Cote est;Utah;V2;15/03/2010;10;190
+2009;Chausey;Roquette;V3;11/06/2010;20;180
+2009;Chausey;Huguenans;V3;11/06/2010;20;180
+2009;Cote ouest;Bricqueville;V3;14/06/2010;13;187
+2009;Cote ouest;Hauteville;V3;14/06/2010;33;167
+2009;Cote ouest;Agon;V3;15/06/2010;26;174
+2009;Cote ouest;Pirou nord;V3;14/06/2010;15;185
+2009;Cote est;Utah;V3;15/06/2010;8;192
+2009;Chausey;Roquette;REF;06/09/2010;50;150
+2009;Chausey;Huguenans;REF;06/09/2010;35;165
+2009;Cote ouest;Bricqueville;REF;09/09/2010;40;160
+2009;Cote ouest;Hauteville;REF;09/09/2010;40;160
+2009;Cote ouest;Agon;REF;08/09/2010;28;172
+2009;Cote ouest;Pirou nord;REF;08/09/2010;16;184
+2009;Cote est;Utah;REF;08/09/2010;nd;nd
+2010;Chausey;Roquette;To;22/10/2010;0;200
+2010;Chausey;Huguenans;To;22/10/2010;0;200
+2010;Cote ouest;Bricqueville;To;22/10/2010;0;200
+2010;Cote ouest;Hauteville;To;22/10/2010;0;200
+2010;Cote ouest;Agon;To;22/10/2010;0;200
+2010;Cote ouest;Pirou nord;To;22/10/2010;0;200
+2010;Cote est;Utah;To;22/10/2010;0;200
+2010;Chausey;Roquette;V1;07/12/2010;0;200
+2010;Chausey;Huguenans;V1;07/12/2010;0;200
+2010;Cote ouest;Bricqueville;V1;06/12/2010;10;190
+2010;Cote ouest;Hauteville;V1;06/12/2010;1;199
+2010;Cote ouest;Agon;V1;08/12/2010;6;194
+2010;Cote ouest;Pirou nord;V1;07/12/2010;1;199
+2010;Cote est;Utah;V1;06/12/2010;0;200
+2010;Chausey;Roquette;V2;18/03/2011;1;199
+2010;Chausey;Huguenans;V2;18/03/2011;8;192
+2010;Cote ouest;Bricqueville;V2;23/03/2011;5;195
+2010;Cote ouest;Hauteville;V2;23/03/2011;13;187
+2010;Cote ouest;Agon;V2;24/03/2011;5;195
+2010;Cote ouest;Pirou nord;V2;21/03/2011;8;192
+2010;Cote est;Utah;V2;18/03/2011;8;192
+2010;Chausey;Roquette;V3;14/06/2011;6;194
+2010;Chausey;Huguenans;V3;14/06/2011;5;195
+2010;Cote ouest;Bricqueville;V3;16/06/2011;15;185
+2010;Cote ouest;Hauteville;V3;16/06/2011;41;159
+2010;Cote ouest;Agon;V3;17/06/2011;16;184
+2010;Cote ouest;Pirou nord;V3;16/06/2011;46;154
+2010;Cote est;Utah;V3;15/06/2011;10;190
+2010;Chausey;Roquette;REF;15/09/2011;16;184
+2010;Chausey;Huguenans;REF;15/09/2011;16;184
+2010;Cote ouest;Bricqueville;REF;14/09/2011;18;182
+2010;Cote ouest;Hauteville;REF;14/09/2011;36;164
+2010;Cote ouest;Agon;REF;13/09/2011;38;162
+2010;Cote ouest;Pirou nord;REF;14/09/2011;53;147
+2010;Cote est;Utah;REF;12/09/2011;11;189
+2011;Chausey;Roquette;To;26/09/2011;0;200
+2011;Chausey;Huguenans;To;26/09/2011;0;200
+2011;Cote ouest;Bricqueville;To;26/09/2011;0;200
+2011;Cote ouest;Hauteville;To;26/09/2011;0;200
+2011;Cote ouest;Agon;To;26/09/2011;0;200
+2011;Cote ouest;Pirou nord;To;26/09/2011;0;200
+2011;Cote est;Utah;To;26/09/2011;0;200
+2011;Chausey;Roquette;V1;23/11/2011;6;194
+2011;Chausey;Huguenans;V1;23/11/2011;6;194
+2011;Cote ouest;Bricqueville;V1;24/11/2011;1;199
+2011;Cote ouest;Hauteville;V1;24/11/2011;18;182
+2011;Cote ouest;Agon;V1;25/11/2011;15;185
+2011;Cote ouest;Pirou nord;V1;25/11/2011;6;194
+2011;Cote est;Utah;V1;24/11/2011;3;197
+2011;Chausey;Roquette;V2;12/03/2012;15;185
+2011;Chausey;Huguenans;V2;12/03/2012;18;182
+2011;Cote ouest;Bricqueville;V2;08/03/2012;23;177
+2011;Cote ouest;Hauteville;V2;08/03/2012;16;184
+2011;Cote ouest;Agon;V2;09/03/2012;33;167
+2011;Cote ouest;Pirou nord;V2;07/03/2012;11;189
+2011;Cote est;Utah;V2;09/03/2012;18;182
+2011;Chausey;Roquette;V3;20/07/2012;30;170
+2011;Chausey;Huguenans;V3;20/07/2012;25;175
+2011;Cote ouest;Bricqueville;V3;10/07/2012;23;177
+2011;Cote ouest;Hauteville;V3;11/07/2012;23;177
+2011;Cote ouest;Agon;V3;02/07/2012;41;159
+2011;Cote ouest;Pirou nord;V3;10/07/2012;43;157
+2011;Cote est;Utah;V3;10/07/2012;8;192
+2011;Chausey;Roquette;REF;19/09/2012;40;160
+2011;Chausey;Huguenans;REF;19/09/2012;10;190
+2011;Cote ouest;Bricqueville;REF;18/09/2012;41;159
+2011;Cote ouest;Hauteville;REF;18/09/2012;43;157
+2011;Cote ouest;Agon;REF;18/09/2012;70;130
+2011;Cote ouest;Pirou nord;REF;19/09/2012;nd;nd
+2011;Cote est;Utah;REF;17/09/2012;13;187
+2012;Chausey;Roquette;To;12/10/2012;0;200
+2012;Chausey;Huguenans;To;12/10/2012;0;200
+2012;Cote ouest;Bricqueville;To;12/10/2012;0;200
+2012;Cote ouest;Hauteville;To;12/10/2012;0;200
+2012;Cote ouest;Agon;To;12/10/2012;0;200
+2012;Cote ouest;Pirou nord;To;12/10/2012;0;200
+2012;Cote est;Utah;To;12/10/2012;0;200
+2012;Chausey;Roquette;V1;10/01/2013;6;194
+2012;Chausey;Huguenans;V1;10/01/2013;8;192
+2012;Cote ouest;Bricqueville;V1;14/01/2013;1;199
+2012;Cote ouest;Hauteville;V1;14/01/2013;8;192
+2012;Cote ouest;Agon;V1;12/01/2013;20;180
+2012;Cote ouest;Pirou nord;V1;15/01/2013;3;197
+2012;Cote est;Utah;V1;09/01/2013;6;194
+2012;Chausey;Roquette;V2;28/03/2013;5;195
+2012;Chausey;Huguenans;V2;28/03/2013;5;195
+2012;Cote ouest;Bricqueville;V2;27/03/2013;13;187
+2012;Cote ouest;Hauteville;V2;27/03/2013;1;199
+2012;Cote ouest;Agon;V2;28/03/2013;25;175
+2012;Cote ouest;Pirou nord;V2;28/03/2013;5;195
+2012;Cote est;Utah;V2;25/03/2013;5;195
+2012;Chausey;Roquette;V3;25/06/2013;18;182
+2012;Chausey;Huguenans;V3;25/06/2013;20;180
+2012;Cote ouest;Bricqueville;V3;27/06/2013;11;189
+2012;Cote ouest;Hauteville;V3;27/06/2013;16;184
+2012;Cote ouest;Agon;V3;25/06/2013;55;145
+2012;Cote ouest;Pirou nord;V3;25/06/2013;11;189
+2012;Cote est;Utah;V3;25/06/2013;6;194
+2012;Chausey;Roquette;REF;23/09/2013;30;170
+2012;Chausey;Huguenans;REF;23/09/2013;21;179
+2012;Cote ouest;Bricqueville;REF;19/09/2013;66;134
+2012;Cote ouest;Hauteville;REF;19/09/2013;23;177
+2012;Cote ouest;Agon;REF;18/09/2013;196;4
+2012;Cote ouest;Pirou nord;REF;19/09/2013;36;164
+2012;Cote est;Utah;REF;17/09/2013;13;187
+2013;Chausey;Roquette;To;05/10/2013;0;200
+2013;Chausey;Huguenans;To;05/10/2013;0;200
+2013;Cote ouest;Bricqueville;To;05/10/2013;0;200
+2013;Cote ouest;Hauteville;To;05/10/2013;0;200
+2013;Cote ouest;Agon;To;05/10/2013;0;200
+2013;Cote ouest;Pirou nord;To;05/10/2013;0;200
+2013;Cote est;Utah;To;05/10/2013;0;200
+2013;Chausey;Roquette;V1;02/12/2013;1;199
+2013;Chausey;Huguenans;V1;02/12/2013;1;199
+2013;Cote ouest;Bricqueville;V1;03/12/2013;3;197
+2013;Cote ouest;Hauteville;V1;03/12/2013;1;199
+2013;Cote ouest;Agon;V1;03/12/2013;0;200
+2013;Cote ouest;Pirou nord;V1;04/12/2013;0;200
+2013;Cote est;Utah;V1;02/12/2013;0;200
+2013;Chausey;Roquette;V2;20/03/2014;1;199
+2013;Chausey;Huguenans;V2;20/03/2014;0;200
+2013;Cote ouest;Bricqueville;V2;20/03/2014;5;195
+2013;Cote ouest;Hauteville;V2;20/03/2014;0;200
+2013;Cote ouest;Agon;V2;03/03/2014;30;170
+2013;Cote ouest;Pirou nord;V2;19/03/2014;13;187
+2013;Cote est;Utah;V2;19/03/2014;0;200
+2013;Chausey;Roquette;V3;13/06/2014;8;192
+2013;Chausey;Huguenans;V3;13/06/2014;5;195
+2013;Cote ouest;Bricqueville;V3;12/06/2014;38;162
+2013;Cote ouest;Hauteville;V3;12/06/2014;5;195
+2013;Cote ouest;Agon;V3;16/06/2014;63;137
+2013;Cote ouest;Pirou nord;V3;13/06/2014;0;200
+2013;Cote est;Utah;V3;11/06/2014;5;195
+2013;Chausey;Roquette;REF;10/09/2014;16;184
+2013;Chausey;Huguenans;REF;10/09/2014;6;194
+2013;Cote ouest;Bricqueville;REF;09/09/2014;43;157
+2013;Cote ouest;Hauteville;REF;09/09/2014;33;167
+2013;Cote ouest;Agon;REF;09/09/2014;51;149
+2013;Cote ouest;Pirou nord;REF;08/09/2014;3;197
+2013;Cote est;Utah;REF;08/09/2014;21;179
+2014;Chausey;Roquette;To;05/09/2014;0;200
+2014;Chausey;Huguenans;To;05/09/2014;0;200
+2014;Cote ouest;Bricqueville;To;05/09/2014;0;200
+2014;Cote ouest;Hauteville;To;05/09/2014;0;200
+2014;Cote ouest;Agon;To;05/09/2014;0;200
+2014;Cote ouest;Pirou nord;To;05/09/2014;0;200
+2014;Cote est;Utah;To;05/09/2014;0;200
+2014;Chausey;Roquette;V1;04/12/2014;3;197
+2014;Chausey;Huguenans;V1;04/12/2014;5;195
+2014;Cote ouest;Bricqueville;V1;05/12/2014;6;194
+2014;Cote ouest;Hauteville;V1;05/12/2014;11;189
+2014;Cote ouest;Agon;V1;08/12/2014;0;200
+2014;Cote ouest;Pirou nord;V1;04/12/2014;0;200
+2014;Cote est;Utah;V1;04/12/2014;8;192
+2014;Chausey;Roquette;V2;09/03/2015;8;192
+2014;Chausey;Huguenans;V2;09/03/2015;3;197
+2014;Cote ouest;Bricqueville;V2;05/03/2015;10;190
+2014;Cote ouest;Hauteville;V2;05/03/2015;0;200
+2014;Cote ouest;Agon;V2;04/03/2015;5;195
+2014;Cote ouest;Pirou nord;V2;04/03/2015;0;200
+2014;Cote est;Utah;V2;05/03/2015;3;197
+2014;Chausey;Roquette;V3;17/06/2015;15;185
+2014;Chausey;Huguenans;V3;17/06/2015;10;190
+2014;Cote ouest;Bricqueville;V3;16/06/2015;13;187
+2014;Cote ouest;Hauteville;V3;16/06/2015;8;192
+2014;Cote ouest;Agon;V3;16/06/2015;46;154
+2014;Cote ouest;Pirou nord;V3;18/06/2015;5;195
+2014;Cote est;Utah;V3;15/06/2015;8;192
+2014;Chausey;Roquette;REF;12/10/2015;48;152
+2014;Chausey;Huguenans;REF;12/10/2015;13;187
+2014;Cote ouest;Bricqueville;REF;29/09/2015;71;129
+2014;Cote ouest;Hauteville;REF;29/09/2015;16;184
+2014;Cote ouest;Agon;REF;30/09/2015;71;129
+2014;Cote ouest;Pirou nord;REF;28/09/2015;15;185
+2014;Cote est;Utah;REF;28/09/2015;83;117
+2015;Chausey;Roquette;To;12/10/2015;0;200
+2015;Chausey;Huguenans;To;12/10/2015;0;200
+2015;Cote ouest;Bricqueville;To;12/10/2015;0;200
+2015;Cote ouest;Hauteville;To;12/10/2015;0;200
+2015;Cote ouest;Agon;To;12/10/2015;0;200
+2015;Cote ouest;Pirou nord;To;12/10/2015;0;200
+2015;Cote est;Utah;To;12/10/2015;0;200
+2015;Chausey;Roquette;V1;16/01/2016;57;143
+2015;Chausey;Huguenans;V1;16/01/2016;58;142
+2015;Cote ouest;Bricqueville;V1;10/12/2015;57;143
+2015;Cote ouest;Hauteville;V1;10/12/2015;62;138
+2015;Cote ouest;Agon;V1;13/12/2015;65;135
+2015;Cote ouest;Pirou nord;V1;10/12/2015;60;140
+2015;Cote est;Utah;V1;10/12/2015;101;99
+2015;Chausey;Roquette;V2;08/03/2016;86;114
+2015;Chausey;Huguenans;V2;08/03/2016;72;128
+2015;Cote ouest;Bricqueville;V2;10/03/2016;97;103
+2015;Cote ouest;Hauteville;V2;10/03/2016;85;115
+2015;Cote ouest;Agon;V2;09/03/2016;44;156
+2015;Cote ouest;Pirou nord;V2;07/03/2016;70;130
+2015;Cote est;Utah;V2;07/03/2016;81;119
+2015;Chausey;Roquette;V3;06/07/2016;78;122
+2015;Chausey;Huguenans;V3;06/07/2016;105;95
+2015;Cote ouest;Bricqueville;V3;05/07/2016;83;117
+2015;Cote ouest;Hauteville;V3;05/07/2016;98;102
+2015;Cote ouest;Agon;V3;05/07/2016;93;107
+2015;Cote ouest;Pirou nord;V3;04/07/2016;90;110
+2015;Cote est;Utah;V3;04/07/2016;110;90
+2015;Chausey;Roquette;REF;19/09/2016;110;90
+2015;Chausey;Huguenans;REF;19/09/2016;115;85
+2015;Cote ouest;Bricqueville;REF;19/09/2016;133;67
+2015;Cote ouest;Hauteville;REF;19/09/2016;88;112
+2015;Cote ouest;Agon;REF;19/09/2016;131;69
+2015;Cote ouest;Pirou nord;REF;15/09/2016;110;90
+2015;Cote est;Utah;REF;15/09/2016;128;72
+2016;Chausey;Roquette;To;15/10/2016;0;200
+2016;Chausey;Huguenans;To;15/10/2016;0;200
+2016;Cote ouest;Bricqueville;To;15/10/2016;0;200
+2016;Cote ouest;Hauteville;To;15/10/2016;0;200
+2016;Cote ouest;Agon;To;15/10/2016;0;200
+2016;Cote ouest;Pirou nord;To;15/10/2016;0;200
+2016;Cote est;Utah;To;15/10/2016;0;200
+2016;Chausey;Roquette;V1;16/12/2016;1;199
+2016;Chausey;Huguenans;V1;16/12/2016;2;198
+2016;Cote ouest;Bricqueville;V1;14/12/2016;1;199
+2016;Cote ouest;Hauteville;V1;13/12/2016;0;200
+2016;Cote ouest;Agon;V1;14/12/2016;4;196
+2016;Cote ouest;Pirou nord;V1;13/12/2016;0;200
+2016;Cote est;Utah;V1;14/12/2016;1;199
+2016;Chausey;Roquette;V2;15/03/2017;7;193
+2016;Chausey;Huguenans;V2;15/03/2017;5;195
+2016;Cote ouest;Bricqueville;V2;13/03/2017;0;200
+2016;Cote ouest;Hauteville;V2;13/03/2017;11;189
+2016;Cote ouest;Agon;V2;14/03/2017;7;193
+2016;Cote ouest;Pirou nord;V2;16/03/2017;5;195
+2016;Cote est;Utah;V2;16/03/2017;1;199
+2016;Chausey;Roquette;V3;22/06/2017;7;193
+2016;Chausey;Huguenans;V3;22/06/2017;13;187
+2016;Cote ouest;Bricqueville;V3;23/06/2017;5;195
+2016;Cote ouest;Hauteville;V3;23/06/2017;7;193
+2016;Cote ouest;Agon;V3;23/06/2017;37;163
+2016;Cote ouest;Pirou nord;V3;22/06/2017;13;187
+2016;Cote est;Utah;V3;22/06/2017;4;196
+2016;Chausey;Roquette;REF;20/09/2017;7;193
+2016;Chausey;Huguenans;REF;20/09/2017;11;189
+2016;Cote ouest;Bricqueville;REF;19/09/2017;34;166
+2016;Cote ouest;Hauteville;REF;19/09/2017;11;189
+2016;Cote ouest;Agon;REF;19/09/2017;65;135
+2016;Cote ouest;Pirou nord;REF;18/09/2017;24;176
+2016;Cote est;Utah;REF;18/09/2017;13;187
+2017;Chausey;Roquette;To;05/10/2017;0;200
+2017;Chausey;Huguenans;To;05/10/2017;0;200
+2017;Cote ouest;Bricqueville;To;05/10/2017;0;200
+2017;Cote ouest;Hauteville;To;05/10/2017;0;200
+2017;Cote ouest;Agon;To;05/10/2017;0;200
+2017;Cote ouest;Pirou nord;To;05/10/2017;0;200
+2017;Cote est;Utah;To;05/10/2017;0;200
+2017;Chausey;Roquette;V1;05/12/2017;14;186
+2017;Chausey;Huguenans;V1;05/12/2017;8;192
+2017;Cote ouest;Bricqueville;V1;04/12/2017;3;197
+2017;Cote ouest;Hauteville;V1;04/12/2017;3;197
+2017;Cote ouest;Agon;V1;04/12/2017;5;195
+2017;Cote ouest;Pirou nord;V1;06/12/2017;9;191
+2017;Cote est;Utah;V1;01/12/2017;9;191
+2017;Chausey;Roquette;V2;19/04/2018;11;189
+2017;Chausey;Huguenans;V2;19/04/2018;9;191
+2017;Cote ouest;Bricqueville;V2;19/03/2018;6;194
+2017;Cote ouest;Hauteville;V2;19/03/2018;10;190
+2017;Cote ouest;Agon;V2;19/03/2018;13;187
+2017;Cote ouest;Pirou nord;V2;20/03/2018;15;185
+2017;Cote est;Utah;V2;22/03/2018;12;188
+2017;Chausey;Roquette;V3;13/06/2018;30;170
+2017;Chausey;Huguenans;V3;13/06/2018;29;171
+2017;Cote ouest;Bricqueville;V3;14/06/2018;18;182
+2017;Cote ouest;Hauteville;V3;14/06/2018;16;184
+2017;Cote ouest;Agon;V3;14/06/2018;39;161
+2017;Cote ouest;Pirou nord;V3;12/06/2018;37;163
+2017;Cote est;Utah;V3;11/06/2018;24;176
+2017;Chausey;Roquette;REF;11/09/2018;72;128
+2017;Chausey;Huguenans;REF;11/09/2018;66;134
+2017;Cote ouest;Bricqueville;REF;10/09/2018;42;158
+2017;Cote ouest;Hauteville;REF;11/09/2018;35;165
+2017;Cote ouest;Agon;REF;10/09/2018;51;149
+2017;Cote ouest;Pirou nord;REF;13/09/2018;33;167
+2017;Cote est;Utah;REF;14/09/2018;17;183
+2018;Chausey;Roquette;To;10/10/2018;0;200
+2018;Chausey;Huguenans;To;10/10/2018;0;200
+2018;Cote ouest;Bricqueville;To;10/10/2018;0;200
+2018;Cote ouest;Hauteville;To;10/10/2018;0;200
+2018;Cote ouest;Agon;To;10/10/2018;0;200
+2018;Cote ouest;Pirou nord;To;10/10/2018;0;200
+2018;Cote est;Utah;To;10/10/2018;0;200
+2018;Chausey;Roquette;V1;10/01/2019;3;197
+2018;Chausey;Huguenans;V1;10/01/2019;6;194
+2018;Cote ouest;Bricqueville;V1;05/12/2018;17;183
+2018;Cote ouest;Hauteville;V1;05/12/2018;6;194
+2018;Cote ouest;Agon;V1;26/12/2018;9;191
+2018;Cote ouest;Pirou nord;V1;06/12/2018;0;200
+2018;Cote est;Utah;V1;03/12/2018;6;194
+2018;Chausey;Roquette;V2;21/03/2019;11;189
+2018;Chausey;Huguenans;V2;21/03/2019;18;182
+2018;Cote ouest;Bricqueville;V2;21/03/2019;24;176
+2018;Cote ouest;Hauteville;V2;21/03/2019;6;194
+2018;Cote ouest;Agon;V2;20/03/2019;17;183
+2018;Cote ouest;Pirou nord;V2;20/03/2019;8;192
+2018;Cote est;Utah;V2;19/03/2019;4;196
+2018;Chausey;Roquette;V3;19/06/2019;21;179
+2018;Chausey;Huguenans;V3;19/06/2019;36;164
+2018;Cote ouest;Bricqueville;V3;17/06/2019;33;167
+2018;Cote ouest;Hauteville;V3;17/06/2019;16;184
+2018;Cote ouest;Agon;V3;18/06/2019;85;115
+2018;Cote ouest;Pirou nord;V3;14/06/2019;37;163
+2018;Cote est;Utah;V3;17/06/2019;37;163
+2018;Chausey;Roquette;REF;17/09/2019;36;164
+2018;Chausey;Huguenans;REF;17/09/2019;42;158
+2018;Cote ouest;Bricqueville;REF;16/09/2019;67;133
+2018;Cote ouest;Hauteville;REF;16/09/2019;24;176
+2018;Cote ouest;Agon;REF;16/09/2019;129;71
+2018;Cote ouest;Pirou nord;REF;13/09/2019;55;145
+2018;Cote est;Utah;REF;13/09/2019;64;136
+2019;Chausey;Roquette;To;17/09/2019;0;200
+2019;Chausey;Huguenans;To;17/09/2019;0;200
+2019;Cote ouest;Bricqueville;To;16/09/2019;0;200
+2019;Cote ouest;Hauteville;To;16/09/2019;0;200
+2019;Cote ouest;Agon;To;16/09/2019;0;200
+2019;Cote ouest;Pirou nord;To;13/09/2019;0;200
+2019;Cote est;Utah;To;13/09/2019;0;200
+2019;Chausey;Roquette;V1;03/12/2019;3;197
+2019;Chausey;Huguenans;V1;03/12/2019;1;199
+2019;Cote ouest;Bricqueville;V1;28/11/2019;2;198
+2019;Cote ouest;Hauteville;V1;28/11/2019;2;198
+2019;Cote ouest;Agon;V1;27/11/2019;24;176
+2019;Cote ouest;Pirou nord;V1;NA;nd;nd
+2019;Cote est;Utah;V1;26/11/2019;6;194
+2019;Chausey;Roquette;V2;07/04/2020;8;192
+2019;Chausey;Huguenans;V2;07/04/2020;0;200
+2019;Cote ouest;Bricqueville;V2;09/03/2020;7;193
+2019;Cote ouest;Hauteville;V2;09/03/2020;2;198
+2019;Cote ouest;Agon;V2;11/03/2020;37;163
+2019;Cote ouest;Pirou nord;V2;10/03/2020;21;179
+2019;Cote est;Utah;V2;10/03/2020;29;171
+2019;Chausey;Roquette;V3;08/06/2020;17;183
+2019;Chausey;Huguenans;V3;08/06/2020;16;184
+2019;Cote ouest;Bricqueville;V3;03/06/2020;16;184
+2019;Cote ouest;Hauteville;V3;03/06/2020;12;188
+2019;Cote ouest;Agon;V3;05/06/2020;30;170
+2019;Cote ouest;Pirou nord;V3;03/06/2020;52;148
+2019;Cote est;Utah;V3;02/06/2020;11;189
+2019;Chausey;Roquette;REF;16/09/2020;50;150
+2019;Chausey;Huguenans;REF;16/09/2020;42;158
+2019;Cote ouest;Bricqueville;REF;18/09/2020;30;170
+2019;Cote ouest;Hauteville;REF;18/09/2020;21;179
+2019;Cote ouest;Agon;REF;18/09/2020;75;125
+2019;Cote ouest;Pirou nord;REF;17/09/2020;44;156
+2019;Cote est;Utah;REF;17/09/2020;24;176
+2020;Chausey;Roquette;To;04/09/2020;0;200
+2020;Chausey;Huguenans;To;04/09/2020;0;200
+2020;Cote ouest;Bricqueville;To;04/09/2020;0;200
+2020;Cote ouest;Hauteville;To;04/09/2020;0;200
+2020;Cote ouest;Agon;To;04/09/2020;0;200
+2020;Cote ouest;Pirou nord;To;04/09/2020;0;200
+2020;Cote est;Utah;To;04/09/2020;0;200
+2020;Chausey;Roquette;V1;02/12/2020;8;192
+2020;Chausey;Huguenans;V1;02/12/2020;10;190
+2020;Cote ouest;Bricqueville;V1;01/12/2020;22;178
+2020;Cote ouest;Hauteville;V1;01/12/2020;16;184
+2020;Cote ouest;Agon;V1;01/12/2020;6;194
+2020;Cote ouest;Pirou nord;V1;01/12/2020;6;194
+2020;Cote est;Utah;V1;01/12/2020;68;132
+2020;Chausey;Roquette;V2;31/03/2021;8;192
+2020;Chausey;Huguenans;V2;31/03/2021;14;186
+2020;Cote ouest;Bricqueville;V2;29/03/2021;42;158
+2020;Cote ouest;Hauteville;V2;29/03/2021;10;190
+2020;Cote ouest;Agon;V2;30/03/2021;16;184
+2020;Cote ouest;Pirou nord;V2;30/03/2021;14;186
+2020;Cote est;Utah;V2;29/03/2021;118;82
+2020;Chausey;Roquette;V3;24/06/2021;26;174
+2020;Chausey;Huguenans;V3;24/06/2021;26;174
+2020;Cote ouest;Bricqueville;V3;25/06/2021;32;168
+2020;Cote ouest;Hauteville;V3;25/06/2021;28;172
+2020;Cote ouest;Agon;V3;25/06/2021;32;168
+2020;Cote ouest;Pirou nord;V3;24/06/2021;32;168
+2020;Cote est;Utah;V3;22/06/2021;90;110
+2020;Chausey;Roquette;REF;21/09/2021;60;140
+2020;Chausey;Huguenans;REF;21/09/2021;52;148
+2020;Cote ouest;Bricqueville;REF;21/09/2021;80;120
+2020;Cote ouest;Hauteville;REF;21/09/2021;66;134
+2020;Cote ouest;Agon;REF;21/09/2021;68;132
+2020;Cote ouest;Pirou nord;REF;20/09/2021;58;142
+2020;Cote est;Utah;REF;20/09/2021;118;82
+2021;Chausey;Roquette;To;20/09/2021;0;200
+2021;Chausey;Huguenans;To;20/09/2021;0;200
+2021;Cote ouest;Bricqueville;To;20/09/2021;0;200
+2021;Cote ouest;Hauteville;To;20/09/2021;0;200
+2021;Cote ouest;Agon;To;20/09/2021;0;200
+2021;Cote ouest;Pirou nord;To;20/09/2021;0;200
+2021;Cote est;Utah;To;20/09/2021;0;200
+2021;Chausey;Roquette;V1;14/12/2021;10;190
+2021;Chausey;Huguenans;V1;14/12/2021;6;194
+2021;Cote ouest;Bricqueville;V1;03/12/2021;6;194
+2021;Cote ouest;Hauteville;V1;03/12/2021;10;190
+2021;Cote ouest;Agon;V1;06/12/2021;4;196
+2021;Cote ouest;Pirou nord;V1;02/12/2021;6;194
+2021;Cote est;Utah;V1;07/12/2021;10;190
+2021;Chausey;Roquette;V2;21/03/2022;8;192
+2021;Chausey;Huguenans;V2;16/03/2022;8;192
+2021;Cote ouest;Bricqueville;V2;18/03/2022;18;182
+2021;Cote ouest;Hauteville;V2;18/03/2022;22;178
+2021;Cote ouest;Agon;V2;21/03/2022;14;186
+2021;Cote ouest;Pirou nord;V2;17/03/2022;6;194
+2021;Cote est;Utah;V2;17/03/2022;6;194
+2021;Chausey;Roquette;V3;14/06/2022;26;174
+2021;Chausey;Huguenans;V3;14/06/2022;16;184
+2021;Cote ouest;Bricqueville;V3;15/06/2022;24;176
+2021;Cote ouest;Hauteville;V3;15/06/2022;28;172
+2021;Cote ouest;Agon;V3;14/06/2022;24;176
+2021;Cote ouest;Pirou nord;V3;14/06/2022;22;178
+2021;Cote est;Utah;V3;13/06/2022;24;176
+2021;Chausey;Roquette;REF;14/09/2022;42;158
+2021;Chausey;Huguenans;REF;14/09/2022;30;170
+2021;Cote ouest;Bricqueville;REF;13/09/2022;24;176
+2021;Cote ouest;Hauteville;REF;13/09/2022;64;136
+2021;Cote ouest;Agon;REF;12/09/2022;50;150
+2021;Cote ouest;Pirou nord;REF;13/09/2022;40;160
+2021;Cote est;Utah;REF;08/09/2022;34;166
