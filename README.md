@@ -1,8 +1,12 @@
-Data from: The first national database of blue mussel mortality in France
-Lemesle Stéphanie1, Bernard Ismaël2, Herbomez Anaïs1, Normand Julien1*
-1Laboratory Environnement Ressources de Normandie, IFREMER, Department Océanographie et Dynamique des Ecosystèmes, COAST research unit, FR
-2Eurêka Mer, FR
-*Correspondence:
+# Data from: The first national database of blue mussel mortality in France
+
+Lemesle Stéphanie^1^, Bernard Ismaël^2^, Herbomez Anaïs^1^, Normand Julien^1*^
+
+^1^ Laboratory Environnement Ressources de Normandie, IFREMER, Department Océanographie et Dynamique des Ecosystèmes, COAST research unit, FR
+
+^2^ Eurêka Mer, FR
+
+^*^Correspondence:
 Corresponding Author: julien.normand@ifremer.fr
 
 # Contents:
@@ -24,6 +28,6 @@ Once this stage has been completed, we fitted mathematical models to achieve tem
 -	Mortality_metric is a .csv table containing some statistics summarizing the information derived from the models. It contains 292 rows and 6 columns (one row for each Site x Campaign combination). The Campaign, id_site, DOY columns contain the same information as for the Clean_dataset (see above). MM is the cumulative mortality value predicted by the model on day 261, the date at which most of the annual monitoring operations were completed. MI is the mortality initiation date, which corresponds to the DOY on which mortality reaches 10% of the value of the MM. The column labelled alpha contains the value for the slope of a linear model adjusted between the initiation of mortality (MI) and the maximum mortality at day 261 (MM) points.
 
 # Code:
-1_Map_Sampling_sites.R contains the code to recreate the map of the sampling sites (Figure 1 in the datapaper). 
-2_National_Data_mytilus.R contains the code for data harmonization and cleaning that produces Raw_dataset.csv. It computes the cumulative mortality and produces Clean_dataset.csv. Finally, it adjusts both models to the cleaned data, selects the best of them, and estimates the daily cumulative mortality values contained in the death_predicted.csv dataset. It's also the code that generates the Figures 2, 3 and 4 of the datapaper.
-3_Mortality_metrics computes MM, MI and alpha for each Site x Campaign combination (mortality_metric.csv). It also produces the Figure 5 of the datapaper.
+- 1_Map_Sampling_sites.R contains the code to recreate the map of the sampling sites (Figure 1 in the datapaper). 
+- 2_National_Data_mytilus.R contains the code for data harmonization and cleaning that produces Raw_dataset.csv. It computes the cumulative mortality and produces Clean_dataset.csv. Finally, it adjusts both models to the cleaned data, selects the best of them, and estimates the daily cumulative mortality values contained in the death_predicted.csv dataset. It's also the code that generates the Figures 2, 3 and 4 of the datapaper.
+- 3_Mortality_metrics computes MM, MI and alpha for each Site x Campaign combination (mortality_metric.csv). It also produces the Figure 5 of the datapaper.
