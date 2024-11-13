@@ -1,6 +1,6 @@
 # Data from: The first national database of blue mussel mortality in France
 
-Lemesle Stéphanie$^1$, Bernard Ismaël$^2$, Herbomez Anaïs$^1$, Normand Julien$^1*$
+Lemesle Stéphanie $^1$, Bernard Ismaël $^2$, Herbomez Anaïs $^1$, Normand Julien $^1*$
 
 $^1$ Laboratory Environnement Ressources de Normandie, IFREMER, Department Océanographie et Dynamique des Ecosystèmes, COAST research unit, FR
 
