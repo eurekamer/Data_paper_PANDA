@@ -1,5 +1,7 @@
-# Script to draw map of the site
-# 2024-28-10
+# Script to produce Supplementary material Figure 1 (map)
+# 2026-01-14, Ifremer 
+# Depends on original_datasets/id_site.csv 
+# Produce Supplementary material Figure 1 : 
 
 # Install necessary libraries and load it
 
@@ -60,6 +62,6 @@ sampling_location <- ggplot(data = world) +
 sampling_location
 
 ## Save the map
-ggsave(sampling_location, file = file.path("Figures","Figure1_Map.jpeg"),
+ggsave(sampling_location, file = file.path("Figures","Supp_mat_Fig1.jpeg"),
        width = 220, height = 150, dpi = 400,units = "mm",
        type = "cairo")

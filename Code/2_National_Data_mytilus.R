@@ -1,9 +1,12 @@
-# Script to aggregate datasets and calculate general metrics on mussel mortality in France
-# 2024-10-28, Ifremer 
+# Script to aggregate datasets, adjust sigmoid models and calculate general metrics on mussel mortality in France
+# 2026-01-14, Ifremer
+# Depends on original datasets Dataset_1.csv, Dataset_2.csv, Dataset_3.csv, Dataset_4.csv, Dataset_5.csv,
+# Dataset_6.csv
 # Produce Raw_dataset.csv, Clean_dataset.csv and death_predicted.csv
-# Produce Figure A, Figure 2, Figure B, Figure C, Figure D, Figure E, Figure F, Figure 3 
+# Produce Figures C, D, E and F
+# Produce Supplementary material Figure 2 and Supplementary material Figure 3 : 
 
-# Install necessary libraries and load it
+# Install necessary libraries and load it ----
 list.of.packages <- c("tidyverse", "readxl","cowplot","nls.multstart","broom","ggpubr","viridis","formattable","zoo")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -18,8 +21,9 @@ library(viridis)
 library(formattable)
 library(zoo)
 
-#############################################################################################################
-################################### Data collection #####################################################
+
+# Data collection ----
+## Dataset 1 ----
 # Dataset 1 loading
 Dataset_1 <- read.csv(file.path("Data","original_datasets","Dataset_1.csv"), header=TRUE, sep=";")
 Dataset_1 <- Dataset_1 %>%filter(!(is.na(alive_nb) & is.na(dead_nb) & is.na(cum_morta)))
@@ -44,6 +48,7 @@ Dataset_1$Operator<-"Operator_1"
 Dataset_1$MR<-"NA"
 Dataset_1<-Dataset_1 %>% dplyr::select(Site,Date,spat_year, alive_nb,dead_nb,init_nb,Batch,site_spat,Specie,Support,Operator,Comments,Campaign,MR)
 
+## Dataset 2 ----
 # Dataset 2 loading
 Dataset_2 <- read.csv(file.path("Data","original_datasets","Dataset_2.csv"), header=TRUE, sep=";", skip=1, fileEncoding = "Windows-1252")
 Dataset_2$Support <- ifelse (is.na(Dataset_2$Panier)| Dataset_2$Panier =="","Plate","bag")
@@ -87,8 +92,8 @@ Dataset_2<-Dataset_2%>%mutate(Campaign=spat_year+1)
 #Dataset_2$Comments<-"NA"
 Dataset_2$MR<-"NA"
 Dataset_2<-Dataset_2 %>% dplyr::select(Site,Date,spat_year, alive_nb,dead_nb,init_nb,Batch,site_spat,Specie,Support,Operator,Comments,Campaign,MR)
-########################################
 
+## Dataset 3 ----
 #Dataset loading
 Dataset_3 <- read.csv(file.path("Data","original_datasets","Dataset_3.csv"), header=TRUE, sep=";", fileEncoding = "Windows-1252")
 Dataset_3$Date <- dmy(Dataset_3$Date)
@@ -115,7 +120,7 @@ Dataset_3$MR<-"NA"
 Dataset_3<-Dataset_3 %>% mutate(site_spat = ifelse(Campagne< 2022, "Pertuis_Breton", "local"))
 Dataset_3<-Dataset_3 %>% dplyr::select(Site,Date,spat_year, alive_nb,dead_nb,init_nb,Batch,site_spat,Specie,Support,Operator,Comments,Campaign,MR)
 
-########################################
+## Dataset 4 ----
 #Dataset loading
 Dataset_4 <- read.csv(file.path("Data","original_datasets","Dataset_4.csv"), header=TRUE, sep=";")
 
@@ -139,7 +144,7 @@ Dataset_4$Batch<-"NA"
 Dataset_4$MR<-"NA"
 Dataset_4<-Dataset_4 %>% dplyr::select(Site,Date,spat_year, alive_nb,dead_nb,init_nb,Batch,site_spat,Specie,Support,Operator,Comments,Campaign,MR)
 
-########################################
+## Dataset 5 ----
 #Dataset loading
 Dataset_5 <- read.csv(file.path("Data","original_datasets","Dataset_5.csv"), header=TRUE, sep=";")
 
@@ -165,7 +170,7 @@ Dataset_5$Batch<-"NA"
 Dataset_5$MR<-"NA"
 Dataset_5<-Dataset_5 %>% dplyr::select(Site,Date,spat_year, alive_nb,dead_nb,init_nb,Batch,site_spat,Specie,Support,Operator,Comments,Campaign,MR)
 
-########################################
+## Dataset 6 ----
 #Dataset loading
 Dataset_6 <- read.csv(file.path("Data","original_datasets","Dataset_6.csv"), header=TRUE, sep=";")
 Dataset_6$Date<-dmy(Dataset_6$Date)
@@ -203,8 +208,7 @@ Raw_database<-Raw_database %>% mutate_at(vars(dead_nb,alive_nb,MR),as.numeric)
 # Export of the raw_dataset file in .csv
 write.csv(Raw_database, file=file.path("Data","new_datasets","Raw_dataset.csv"), row.names = FALSE, quote = TRUE, na = "NA")
 
-#################################################################
-# Creation of the Clean_database
+# Creation of the Clean_database ----
 ## Load the raw database :
 clean_database <- read.csv(file.path("Data","new_datasets","Raw_dataset.csv"), header=TRUE, sep=",") 
 clean_database$Date <- ymd(clean_database$Date)
@@ -234,7 +238,6 @@ clean_database<- clean_database[!(clean_database$Operator == "Operator_3" & clea
 # Removal of combinations Site x Campaign x Operator for which there are fewer than 4 observations : 
 clean_database<-clean_database%>%group_by(Site,Campaign,Operator,Batch)%>%mutate(n_count=n())
 clean_database <- clean_database%>%filter(n_count >= 4)
-
 
 # Removing Site x Campaign x Operator combinations that end before the month of May of the survey year : 
 End_Date <- clean_database %>%group_by(Site, Campaign,Operator) %>%summarise(End_Date = max(Date))
@@ -308,10 +311,10 @@ clean_database<-clean_database %>% dplyr::select(Site,Date,Batch,CM,Campaign,DOY
 # Export of the clean_database file in .csv
 write.csv(clean_database, file=file.path("Data","new_datasets","Clean_dataset.csv"), row.names = FALSE, quote = TRUE, na = "NA")
 
-#############################################
-# Figures
+# Figures ----
 
-#Figure A (this figure is not included in the article):
+## Figure A  ----
+## (this figure is not included in the article):
 FigA <- ggplot(data = clean_database, aes(x = DOY, y = CM, color = Operator)) +
   geom_point(size=1) +
   ylab("Cumulative mortality") +
@@ -329,24 +332,29 @@ FigA <- ggplot(data = clean_database, aes(x = DOY, y = CM, color = Operator)) +
 ggsave(FigA, file = file.path("Figures","FigureA.jpeg"),
        width = 14.4, height = 8.825, dpi = 300,units = "in",
        type = "cairo")
+graphics.off()
+X11()
+FigA
 
-# Figure 2 : Number of samples taken for mortality monitoring by site, year and operator, 
-# This figure is in the datapaper and is generated also by the Shiny App
+## Supplementary material Figure 2 ----
+##Number of samples taken for mortality monitoring by site, year and operator, 
 counts_morta <- clean_database %>% group_by(Campaign, Operator, Site, latitude, longitude) %>% 
   count() %>% mutate(Site = factor(Site, levels= rev(na.omit(unique(id_site$Site)))))
 
-Fig2 <- ggplot(data=counts_morta, aes(x=Campaign, y=Site, color=Operator)) + 
+Supp_mat_Fig2 <- ggplot(data=counts_morta, aes(x=Campaign, y=Site, color=Operator)) + 
   geom_point(size=6) + theme_bw() + 
   scale_x_continuous(breaks = min(counts_morta$Campaign):max(counts_morta$Campaign)) + 
   xlab("Year") + ylab("Site") + 
   scale_color_brewer(name="Dataset", palette="Spectral") + geom_text(aes(label=n), color="black") +
   ggtitle("Number of samples taken for mortality monitoring by site, year and operator")
-ggsave(Fig2, file = file.path("Figures","Figure2.jpeg"),
+ggsave(Supp_mat_Fig2, file = file.path("Figures","Supp_mat_Fig2.jpeg"),
        width = 30, height = 20, units="cm", dpi = 300, type = "cairo")
+graphics.off()
+X11()
+Supp_mat_Fig2
 
-#############################################################################################################
 
-################################### Data standardization ####################################################
+# Data standardization ----
 #Adjustement of the sinusoidal models
 rm(list = ls())
 #Load the clean database :
@@ -423,8 +431,8 @@ death_preds <- death_model_stack %>%
   dplyr::select(-data, -best_model) %>%
   mutate(model = as.factor(model))
 
-#Figure B (this figure is not included in the article):
-FigB <- death_preds %>%
+#Figure C (this figure is not included in the article):
+FigC <- death_preds %>%
   ggplot() +
   geom_line(aes(DOY, .fitted, col = model), linewidth = 1) +
   geom_point(data = compil, aes(DOY, CM), alpha = 0.5) +
@@ -434,10 +442,12 @@ FigB <- death_preds %>%
   theme_bw() +
   theme(axis.text.x = element_text(size = 6)) +
   theme(legend.position = "bottom")
-ggsave(FigB, file = file.path("Figures","FigureB.jpeg"),
+ggsave(FigC, file = file.path("Figures","FigureC.jpeg"),
        width = 14.4, height = 8.825, dpi = 300, units = "in",
        type = "cairo")
-FigB
+graphics.off()
+x11()
+FigC
 
 # We filter the model fits that have not converged and provide a summary of these fits :
 death_fits %>%
@@ -478,10 +488,11 @@ failed_conv_death <- rbind(failed_conv_log, failed_conv_gomp)
 
 rm(failed_conv_log, failed_conv_gomp, death_info_Logistic, death_info_Gompertz)
 
-## Figure C (this figure is not included in the article):
+## Figure D ----
+## (this figure is not included in the article):
 death_model_failled_conv <- inner_join(death_preds, failed_conv_death, by = c("id_site", "Campaign", "model"))
 
-FigC <- ggplot() +
+FigD <- ggplot() +
   geom_line(data = death_model_failled_conv, aes(DOY, .fitted, col = model), linewidth = 1) +
   geom_point(data = inner_join(compil, failed_conv_death, by = c("id_site", "Campaign")), aes(DOY, CM), alpha = 0.5) +
   facet_grid(id_site ~ Campaign, scale = "free_x") +
@@ -490,13 +501,16 @@ FigC <- ggplot() +
   theme(axis.text.x = element_text(size = 8))+
   theme_bw() +
   theme(legend.position = "bottom")
-ggsave(FigC, file = file.path("Figures","FigureC.jpeg"),
+ggsave(FigD, file = file.path("Figures","FigureD.jpeg"),
       width = 14.4, height = 8.825, dpi = 300, units = "in",
        type = "cairo")
-FigC
+graphics.off()
+X11()
+FigD
 
 #Now let's see if the AIC was computed for all models:
-##Figure D (this figure is not included in the article):
+## Figure E ---- 
+## (this figure is not included in the article):
 theme_graphic <- function(base_family = "sans", ...) {
   theme_bw(base_family = base_family, ...) +
     theme(
@@ -515,7 +529,8 @@ death_aic_median <- death_model_stack %>%
   summarise(median_aic = median(aic), count = n()) %>%
   ungroup()
 
-# Figure D : AIC score for Gompertz and Logistic. This figure is not
+## Figure E ----
+# AIC score for Gompertz and Logistic. This figure is not
 # included in the article
 mussel_mortality <- ggplot() +
   geom_histogram(data = death_model_stack, aes(aic), alpha = 0.5, col = "black", bins = 40, fill = "#EE3B3B") +
@@ -539,15 +554,18 @@ Table3 <- group_by(death_model_stack, id_site, Campaign) %>%
   rename(Model = model) %>%
   rename("Percentage of lowest \nAIC score" = perc_best)
 death_Table <- ggtexttable(Table3, rows = NULL, theme = ttheme("light"))
-FigD <- ggarrange(mussel_mortality, death_Table, ncol = 1, heights = c(1, 0.35))
-ggsave(FigD, file = file.path("Figures","FigureD.jpeg"),
+FigE <- ggarrange(mussel_mortality, death_Table, ncol = 1, heights = c(1, 0.35))
+ggsave(FigE, file = file.path("Figures","FigureE.jpeg"),
        width = 14.4, height = 8.825, dpi = 300, units = "in",
        type = "cairo")
-FigD
+graphics.off()
+X11()
+FigE
 
-#Figure E (this figure is not included in the article):
+## Figure F ---- 
+##(this figure is not included in the article):
 #We can also plot the residuals of the logistic models
-FigE <- death_model_stack%>%
+FigF <- death_model_stack%>%
   filter(model == "Logistic") %>%
   mutate(preds = map(best_model, augment)) %>%
   unnest(preds) %>%
@@ -559,12 +577,14 @@ FigE <- death_model_stack%>%
   theme(axis.text.x = element_text(size = 6))+
   geom_hline(yintercept = 0, linetype = 2) +
   facet_grid(Campaign~id_site)
-ggsave(FigE, file = file.path("Figures","FigureE.jpeg"),
+ggsave(FigF, file = file.path("Figures","FigureF.jpeg"),
        width = 14.4, height = 8.825, dpi = 300, units = "in",
        type = "cairo")
-FigE
+graphics.off()
+X11()
+FigF
 
-# Figure F (this figure is not included in the article):
+# Figure G (this figure is not included in the article):
 # We can represent the median of the parameter (for the model that did not failed to converge)
 death_params <- death_model_stack %>%
   filter(model == "Logistic") %>%
@@ -577,7 +597,7 @@ death_param_median <- death_params %>%
   summarise(median = median(estimate), count = n()) %>%
   ungroup()
 
-FigF <- death_params %>%
+FigG <- death_params %>%
   ggplot() +
   geom_density(aes(x = estimate, fill = term, after_stat(scaled)), alpha = 0.5) +
   scale_fill_viridis(discrete = TRUE) +
@@ -589,15 +609,18 @@ FigF <- death_params %>%
   ylab("Scale density") +
   theme(legend.position = "none")+
   theme_graphic()
-ggsave(FigF, file = file.path("Figures","FigureF.jpeg"),
+ggsave(FigG, file = file.path("Figures","FigureG.jpeg"),
        width = 14.4, height = 8.825, dpi = 300, units = "in",
        type = "cairo")
-FigF
+graphics.off()
+X11()
+FigG
 ## So, we have selected the Logistic model !
 
-# Figure 3 : Figure of Cumulative mortality as a function of DOY, by Site x Campaign, Obs. vs. Pred. 
-# This figure is in the datapaper and mimicks the graphics of cumulative mortality (obs. vs. estim.) 
-# per site and year in the Shiny App
+## Supplementary material Figure 3 ----
+# Calculated and modeled cumulative mortality of oysters of the mussels across 289 campaign x sites combinations
+# This figure mimics the graphics of cumulative mortality (obs. vs. estim.) per site and year in the Shiny App
+
 death_preds<-death_preds%>%filter(model == "Logistic")
 death_preds$Camp.Site <- paste0(death_preds$Campaign, death_preds$id_site)
 death_preds$num <- as.numeric(as.factor(death_preds$Camp.Site))
@@ -612,8 +635,7 @@ compil2 <- left_join(death_preds, compil2)
 compil2$lab1 <- paste0("Site ", compil2$id_site)
 pipo <- 3:9
 compil2<-compil2 %>% mutate(cell.x= ifelse(is.na(cell.x) & cell.y %in% pipo, 29, cell.x))
-
-Fig3 <- ggplot(data= compil2, aes(x= DOY, y=.fitted)) +
+Supp_mat_Fig3 <- ggplot(data= compil2, aes(x= DOY, y=.fitted)) +
   geom_line(col= "darkred", linewidth = 1) +
   geom_point(aes(x= DOY, y= CM), alpha = 0.5) +
   facet_grid(cell.y~cell.x, scale = "free") +
@@ -625,12 +647,12 @@ Fig3 <- ggplot(data= compil2, aes(x= DOY, y=.fitted)) +
   geom_text(aes(x= 80, y= 0.85, label= lab1), size = 3, colour = "darkred")+
   geom_text(aes(x= 80, y= 0.65, label= Campaign), size = 3, colour = "darkred")+
   labs(x= "DOY", y= "Cumulative mortality")
-graphics.off()
-x11()
-Fig3
-ggsave(Fig3, file = file.path("Figures","Figure3.jpeg"),
+ggsave(Supp_mat_Fig3, file = file.path("Figures","Supp_mat_Fig3.jpeg"),
        width = 19.2, height = 11.77, dpi = 300, units = "in",
        type = "cairo")
+graphics.off()
+x11()
+Supp_mat_Fig3
 
 # We now save the prediction 
 death_best_model <- death_preds %>%
@@ -641,4 +663,4 @@ death_best_model$CM_pred <- formattable(death_best_model$CM_pred, digits = 3, fo
 #Export of the death_predicted file in .csv
 write.csv(death_best_model,file=file.path("Data","new_datasets","death_predicted.csv"), row.names = FALSE, quote = TRUE, na = "NA")
 
-rm(mussel_mortality, death_param_median ,death_Table)
+rm(mussel_mortality,death_aic_median,death_Table)
