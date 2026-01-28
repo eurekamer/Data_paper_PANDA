@@ -529,7 +529,6 @@ death_aic_median <- death_model_stack %>%
   summarise(median_aic = median(aic), count = n()) %>%
   ungroup()
 
-## Figure E ----
 # AIC score for Gompertz and Logistic. This figure is not
 # included in the article
 mussel_mortality <- ggplot() +
@@ -584,7 +583,8 @@ graphics.off()
 X11()
 FigF
 
-# Figure G (this figure is not included in the article):
+## Figure G ----
+# (this figure is not included in the article):
 # We can represent the median of the parameter (for the model that did not failed to converge)
 death_params <- death_model_stack %>%
   filter(model == "Logistic") %>%
