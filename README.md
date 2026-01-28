@@ -6,9 +6,9 @@ $^1$ Laboratory Environnement Ressources de Normandie, IFREMER, Department Océa
 
 $^2$ Eurêka Mer, FR
 
-$3^$ SMIDAP, Public funded research and development entity for Aquaculture and Fisheries in the Pays de Loire, Nantes, FR.
+$^3$ SMIDAP, Public funded research and development entity for Aquaculture and Fisheries in the Pays de Loire, Nantes, FR.
 
-$4^$ Cochet Environnement, Locoal-Mendon, FR.
+$^4$ Cochet Environnement, Locoal-Mendon, FR.
 
 $^5$ Regional Committee for shellfish culture in North Brittany, Morlaix, FR.
 
